@@ -20,11 +20,11 @@ const Projects = () => {
           github: "https://github.com/mdtohidbd/Coffee-Shop-Website"
         },
         {
-          title: 'Super  car-website',
+          title: 'BLUSHIFY',
           desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
           image: CompleteOnlineStore,
-          live: "https://complete-online-store.vercel.app/shop",
-          github: "https://github.com/mdtohidbd/Complete-Online-Store"
+          live: "https://ecommerce-blushify.vercel.app/",
+          github: "https://github.com/mdtohidbd/Complete-Online-web"
         },
         {
           title: ' Nike GT Cut Academy',
