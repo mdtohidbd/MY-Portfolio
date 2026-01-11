@@ -43,7 +43,7 @@ const About = () => {
                                   whileInView={{opacity:1, scale:1}}
                                    transition={{duration:1.5, delay:0.4}} 
                                 className='mt-4 text-lg text-gray-600'>
-                                   I began my web development journey driven by a passion for building intuitive, scalable digital solutions. With hands-on expertise in the MERN stack (MongoDB, Express.js, React, and Node.js), I’ve developed impactful projects like a full-stack food ordering system, a dynamic job portal, and a LinkedIn-style social platform. These projects highlight my ability to seamlessly combine powerful backend functionality with modern, user-centric frontend design—delivering real-world applications that are both efficient and engaging.
+                                   As a co-founder and COO of <span className='text-red-600'>Skybridge Digital</span>, a web development and digital marketing agency, I've been fortunate to have a diverse career path. I've honed my skills in the MERN stack, crafting robust, scalable web applications that meet the needs of clients. I've also developed a deep understanding of digital marketing, helping businesses reach their target audiences and grow their online presence. From concept to deployment, I've been at the forefront of innovation, using my expertise to deliver impactful digital solutions that drive business success.
                                 </motion.p>
                                 <img src={MernStack} alt="" className='p-2 rounded-lg w-52 mt-4' />
                             </div>

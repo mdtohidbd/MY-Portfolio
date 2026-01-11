@@ -1,6 +1,6 @@
 import React from 'react'
 import Portfolio from '../assets/Portfolioo.png'
-import SpicyBites from '../assets/car.png'
+import CompleteOnlineStore from '../assets/Complete-Online-Store.png'
 import Youtube from '../assets/Nike.png'
 import Webelite from '../assets/builder.png'
 import Gocart from '../assets/gocart.png'
@@ -22,9 +22,9 @@ const Projects = () => {
         {
           title: 'Super  car-website',
           desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
-          image: SpicyBites,
-          live: "https://car-website-react-js-pied.vercel.app/",
-          github: "https://github.com/mdtohidbd/Car-Website--ReactJS"
+          image: CompleteOnlineStore,
+          live: "https://complete-online-store.vercel.app/shop",
+          github: "https://github.com/mdtohidbd/Complete-Online-Store"
         },
         {
           title: ' Nike GT Cut Academy',

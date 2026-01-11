@@ -1,7 +1,6 @@
 import React from 'react'
 import hero from '../assets/Hero.png'
 import facebook from '../assets/facebook.png'
-import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import reactLogo from '../assets/React.png'
@@ -39,8 +38,9 @@ const Hero = () => {
         <a href="https://www.facebook.com/share/1CoyzxgRd2/" target="_blank" rel="noreferrer">
           <img src={facebook} alt="Facebook" className='w-20'/>
         </a>
-        <img src={instagram} alt="Instagram" className='w-20'/>
-        <img src={twitter} alt="Twitter" className='w-20'/>
+        <a href="https://www.instagram.com/mdtohidulislamofficially?igsh=a3R3cDU2aXpwY2tw" target="_blank" rel="noreferrer">
+          <img src={instagram} alt="Instagram" className='w-20'/>
+        </a>
         <a href="https://www.linkedin.com/in/mdtohidulislamofficial89?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
           <img src={linkedin} alt="LinkedIn" className='w-20'/>
         </a>
