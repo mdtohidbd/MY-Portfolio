@@ -17,7 +17,15 @@ const Hero = () => {
                <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm TOHIDUL  <span className='text-red-500'>ISLAM</span></h1>
                <p className='md:text-2xl text-xl mb-4'>Web Developer & Designer</p>
                <p className='mb-4'>I'm a creative and results-driven web developer with a deep passion for crafting intuitive, high-performance web experiences. Specializing in React, Next.js, and modern web technologies, I build sleek, scalable, and user-focused applications that don’t just look great — they solve real-world problems. From concept to deployment, I thrive on turning ideas into interactive, impactful digital products.</p>
-               <button className=' text-white px-3 py-2 w-max rounded-md shadow-lg bg-pink-700 hover:shadow-red-500'><a href="" download target='_blank'>Download CV</a></button>
+               <a
+                 href="/Tohidul-Islam-CV.pdf"
+                 download
+                 target='_blank'
+                 rel='noreferrer'
+                 className='text-white px-3 py-2 w-max rounded-md shadow-lg bg-pink-700 hover:shadow-red-500 inline-block'
+               >
+                 Download CV
+               </a>
             </div>
             <div className='md:w-1/2 relative flex justify-center items-end'>
                  <img src={hero} alt="" className='lg:h-[90vh] h-96' />
@@ -28,10 +36,14 @@ const Hero = () => {
         </div>
       </div>
       <div className='absolute top-40 right-10 hidden bg-gray-200 p-4 md:flex flex-col gap-6 rounded-full'> 
-        <img src={facebook} alt="" className='w-20'/>
-        <img src={instagram} alt="" className='w-20'/>
-        <img src={twitter} alt="" className='w-20'/>
-        <img src={linkedin} alt="" className='w-20'/>
+        <a href="https://www.facebook.com/share/1CoyzxgRd2/" target="_blank" rel="noreferrer">
+          <img src={facebook} alt="Facebook" className='w-20'/>
+        </a>
+        <img src={instagram} alt="Instagram" className='w-20'/>
+        <img src={twitter} alt="Twitter" className='w-20'/>
+        <a href="https://www.linkedin.com/in/mdtohidulislamofficial89?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+          <img src={linkedin} alt="LinkedIn" className='w-20'/>
+        </a>
       </div>
     </section>
   )

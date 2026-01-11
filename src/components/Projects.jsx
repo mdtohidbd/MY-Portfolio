@@ -3,7 +3,8 @@ import Portfolio from '../assets/Portfolioo.png'
 import SpicyBites from '../assets/car.png'
 import Youtube from '../assets/Nike.png'
 import Webelite from '../assets/builder.png'
-import Supercar from '../assets/Supercar.png'
+import Gocart from '../assets/gocart.png'
+import OREBI from '../assets/OREBI.png'
 
 import Cards from './Cards'
 
@@ -40,11 +41,18 @@ const Projects = () => {
           github: "https://github.com/mdtohidbd/Wander-Buddy2"
         },
         {
-          title: ' grocery-store',
+          title: 'OREBI',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Supercar,
-          live: "https://grocery-store-tan.vercel.app/",
-          github: "https://github.com/mdtohidbd/Grocery-Store"
+          image: OREBI,
+          live: "https://e-commerce-business-eight.vercel.app/",
+          github: "https://github.com/mdtohidbd/e-commerce-business"
+        },
+         {
+          title: 'Gocart',
+          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          image: Gocart,
+          live: "https://ai-multi-vendor-e-commerce.vercel.app/",
+          github: "https://github.com/mdtohidbd/AI-Multi-Vendor-E-Commerce-"
         },
       ];
 

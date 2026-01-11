@@ -17,33 +17,38 @@ const Testimonials = () => {
     const testimonials = [
         {
             id: 1,
-            name: "Md.Tohidul Islam",
+            name: "John Doe",
+            role: "Teacher",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Amazing web developer with a passion for creating beautiful and functional websites."
         },
         {
             id: 2,
-            name: "Michael",
+            name: "Jane Smith",
+            role: "Client",
             rating: 4,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Consistent web developer who delivers high-quality work on time."
         },
         {
             id: 3,
-            name: "Saim",
+            name: "Bob Johnson",
+            role: "Client",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Web developer who has helped me grow my business online."
         },
         {
             id: 4,
-            name: "Mamun Ar Roshid",
+            name: "Emily Davis",
+            role: "Teacher",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Web developer with a deep understanding of web design and development."
         },
         {
             id: 5,
-            name: "Lisa Patel",
+            name: "Michael Wilson",
+            role: "Client",
             rating: 4,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Consistent web developer who delivers high-quality work for my content writing projects."
         }
     ]
 
@@ -104,7 +109,7 @@ const Testimonials = () => {
                                 <div className='flex justify-between items-center'>
                                     <div>
                                         <h3 className='font-semibold text-red-500 text-lg'>{item.name}</h3>
-                                        <p className='text-sm mt-1'>CEO & Creative Strategist, Webelite Builders</p>
+                                        <p className='text-sm mt-1'>{item.role}</p>
                                     </div>
                                     <Quote className='text-red-400'/>
                                 </div>
